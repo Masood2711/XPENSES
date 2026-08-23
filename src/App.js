@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import AddBalanceModal from './components/AddBalanceModal';
 import './App.css';
 import React, { useEffect, useState } from "react";
