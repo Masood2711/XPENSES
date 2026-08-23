@@ -6,7 +6,7 @@ function ExpenseList({expenses,onDelete,onEdit}){
         <section className="expense-list-section">
             <div className="section-header">
                 <h2>Recent Transactions</h2>
-                {expenses.length==0?(
+                {expenses.length===0?(
                     <div className="empty-expenses">
                         <p>No transactions!</p>
                         <p>Add an expense to see it here</p>
