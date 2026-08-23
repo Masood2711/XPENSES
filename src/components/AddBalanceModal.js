@@ -20,7 +20,7 @@ function AddBalanceModal({onAddIncome,onClose,}){
 
     return(
         <div className="modal-overlay">
-            <div className="modal" role="dialog" aria-model="true" aria-labelledby="add-income-title">
+            <div className="modal" role="dialog" aria-modal="true" aria-labelledby="add-income-title">
                 <div className="modal-header">
                     <h2 id="add-income-title">
                         Add Balance
